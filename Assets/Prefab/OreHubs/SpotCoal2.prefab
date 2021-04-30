@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &346270997258576710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3268597387900880147}
+  m_Layer: 0
+  m_Name: CoalSpot (1)
+  m_TagString: CoalSpot
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3268597387900880147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346270997258576710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.28, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3149245334470196496}
+  m_Father: {fileID: 3301977810234063057}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2431851039758914110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3301977810234063057}
+  m_Layer: 0
+  m_Name: SpotCoal2
+  m_TagString: OreSpotHub
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3301977810234063057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2431851039758914110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3095545460381768717}
+  - {fileID: 3268597387900880147}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4541736940080723731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3095545460381768717}
+  m_Layer: 0
+  m_Name: CoalSpot
+  m_TagString: CoalSpot
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3095545460381768717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4541736940080723731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 143302984012902647}
+  m_Father: {fileID: 3301977810234063057}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &675523089441694538
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3268597387900880147}
+    m_Modifications:
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.12999916
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.29499817
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645278, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_Name
+      value: CoalOre (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ed684e34319ed8499ca11cd50a368db, type: 3}
+--- !u!4 &3149245334470196496 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+    type: 3}
+  m_PrefabInstance: {fileID: 675523089441694538}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2528401855949467309
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3095545460381768717}
+    m_Modifications:
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.12999916
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.29499817
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516295416863645278, guid: 1ed684e34319ed8499ca11cd50a368db,
+        type: 3}
+      propertyPath: m_Name
+      value: CoalOre (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ed684e34319ed8499ca11cd50a368db, type: 3}
+--- !u!4 &143302984012902647 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2516295416863645274, guid: 1ed684e34319ed8499ca11cd50a368db,
+    type: 3}
+  m_PrefabInstance: {fileID: 2528401855949467309}
+  m_PrefabAsset: {fileID: 0}
